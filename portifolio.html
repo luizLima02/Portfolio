@@ -1,0 +1,80 @@
+<style>
+    .fundo{
+      background: linear-gradient(45deg, aqua, #167baa, rgb(204, 204, 255));
+    }
+
+    h1{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 30px;
+    }
+    .formatacao{
+        font-size: 30px;
+        text-align: center;
+    }
+    .fullCard {
+    width: 245px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px 5px;
+    padding: 4px;
+  }
+  .cardContent {
+    padding: 10px;
+    background: linear-gradient(45deg, rgb(253, 253, 253), #e5f5fd, rgb(204, 204, 255));
+  }
+  .cardText {
+    margin-bottom: 30px;
+  }
+  a:hover{
+    font-size: 17px;
+    color: crimson;
+  }
+  #forca{
+    position: relative;
+    left: 300px;
+    bottom: 221px;
+    
+  }
+  #twitter{
+    position: relative;
+    top: 35px;
+    
+  }
+   
+</style>
+
+<!DOCTYPE html>
+<html>
+    <head>
+        
+    </head>
+    <body class="fundo">
+        <h1 class="formatacao">Portfólio</h1>
+        <!-- primeiro projeto -->
+        <div class="fullCard" id="twitter">
+            <div class="cardContent">
+              <div class="cardText">
+                <h4>My Twitter</h4>
+                <hr>
+                <p>Clone do Twitter feito em java usando a interface grafica padrão simulando as funções principais do site.</p>
+              </div>
+              <div class="cardLinks">
+                <a href="https://github.com/luizLima02/MyTwitter" target="_blank" class="links">Link</a><br><br>
+              </div>
+            </div>
+          </div>
+          <!-- segundo projeto -->
+        <div class="fullCard" id="forca">
+          <div class="cardContent">
+            <div class="cardText">
+              <h4><b>Jogo da Forca</b></h4>
+              <hr>
+              <p>Mini Jogo da Forca feito em python para terminal.</p>
+            </div>
+            <div class="cardLinks">
+              <a href="https://github.com/luizLima02/hangman-game-PT-BR-" target="_blank" class="links">Link</a><br><br>
+            </div>
+          </div>
+        </div>
+    </body>
+</html>
